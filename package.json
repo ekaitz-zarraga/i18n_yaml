@@ -1,0 +1,30 @@
+{
+  "name": "i18n_yaml",
+  "version": "0.0.1",
+  "description": "Barebones YAML based i18n",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "i18n",
+    "YAML",
+    "barebones",
+    "hash"
+  ],
+  "author": "Ekaitz Zárraga <ekaitz.zarraga@protonmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ekaitz-zarraga/i18n_yaml"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.8.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {}
+}
