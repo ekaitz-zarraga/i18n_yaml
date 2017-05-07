@@ -1,4 +1,4 @@
-i18n = require('./lib/i18n').I18n
+i18n = require('./lib/i18n')
 
 locale = new i18n({
   localedir: './testdata',
