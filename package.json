@@ -17,14 +17,18 @@
     "hash"
   ],
   "author": "Ekaitz Zárraga <ekaitz.zarraga@protonmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ekaitz-zarraga/i18n_yaml"
-  },
   "license": "MIT",
   "dependencies": {
     "js-yaml": "^3.8.3",
     "underscore": "^1.8.3"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekaitz-zarraga/i18n_yaml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ekaitz-zarraga/i18n_yaml/issues"
+  },
+  "homepage": "https://github.com/ekaitz-zarraga/i18n_yaml#readme"
 }
