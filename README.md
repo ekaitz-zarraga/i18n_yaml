@@ -66,3 +66,11 @@ This is the catalog for the program above:
 
 ```
 
+## Catalog structure:
+
+Catalog files are YAML objects where Keys are the SHA256 digest of the original
+message.
+
+Values are also an object with two Keys: original, which holds the orignal text
+and translation, where the translated message have to be written.
+
