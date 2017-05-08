@@ -3,8 +3,9 @@ i18n = require('./lib/i18n')
 locale = new i18n({
   localedir: './testdata',
   defaultLocale: 'en',
-  locales: ['es','en', 'eu']
+  //locales: ['es','en', 'eu']
 })
+console.log(locale.getAvailableLocales())
 
 var __ = locale.prepare()
 locale.setCurrentLocale('es')
