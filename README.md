@@ -10,7 +10,7 @@ It does **not** support Pluralization yet.
 ``` javascript
 
 // Require it, come on.
-i18n = require('./lib/i18n')
+i18n = require('i18n')
 
 // Set the options
 locale = new i18n({
