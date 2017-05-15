@@ -19,7 +19,7 @@ locale = new i18n({
 
   defaultLocale: 'en',        // This is the language of the original messages
   locales: ['es','en', 'eu']  // Available locales in the application
-  cleanUnused: true           // Removes not found translations from the catalog
+  clean: true                 // Removes not found translations from the catalog
 })
 
 // Get the translation function
@@ -35,7 +35,7 @@ console.log(__('This is a very \nLong message\n Word up!'))
 console.log(__('what\'s up!'))
 
 // Updates catalog files appending found messages which are not translated;
-// if cleanUnused was set in the creation, unused parts of the YAML file are
+// if `clean` was set in the creation, unused parts of the YAML file are
 // deleted
 locale.updateCatalogs()
 
