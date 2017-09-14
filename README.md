@@ -17,7 +17,6 @@ locale = new i18n({
   localedir: './testdata',    // Read/write the locales from this folder;
                               // naming format: localedir/locale.yaml
 
-  defaultLocale: 'en',        // This is the language of the original messages
   locales: ['es','en', 'eu']  // Available locales in the application
   clean: true                 // Removes not found translations from the catalog
 })
